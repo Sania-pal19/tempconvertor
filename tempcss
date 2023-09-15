@@ -1,0 +1,42 @@
+		*{
+			margin: 0px;
+			padding: 0px;
+		 }
+
+		.main
+		{
+			background: URL('image/THERMO.jpg');
+			width: 100%;
+			background-position: center;
+			background-size: cover;
+			height: 100vh;
+
+		}
+
+		#aa
+		{ 
+			justify-content: center;
+			text-align: center;
+			align-items: center;
+			
+
+		}
+		h1
+		{
+			width: 40%;
+			margin: auto;
+			text-align: center;
+			font-size: 60px;
+			font-family: calibri;
+			color: darkblue;
+			padding-bottom: 20px;
+			
+			
+		}
+		.c1
+		{
+			height: 50px;
+			background:skyblue;
+			color: darkblue;
+			font-size: 40px;
+		}
