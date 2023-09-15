@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="tempstyle.css">
+	
+	
+	<script language="javascript">
+		var a,F,C;
+		function aa()
+		{
+			a=parseInt(document.getElementById("s1").value);
+				
+			if(a==1)
+			{
+				F=parseFloat(document.getElementById("t1").value);
+				//alert(F);
+				C = (F-32)*5/9;
+				document.getElementById("t2").value=C+".C";
+
+				
+			}
+			else if(a==2)
+			{
+				C=parseFloat(document.getElementById("t1").value);
+				//alert(C);
+				F = (C*9/5)+32;
+				document.getElementById("t2").value=F+".F";
+
+			}
+
+		}
+
+
+	</script>
+</head>
+<body>
+	<div class="main">
+	<h1><i>Temperature Converter</i></h1>
+
+	<div id="aa">
+		<select id="s1" class="c1">
+			<option value="1">Fahrenheit </option>
+			<option value="2">Celcius </option>
+		</select>
+			
+		<br>
+		<input type="text" id="t1" class="c1">
+		<button onClick="aa()" class="c1">Convert</button>
+		<input type="text" id="t2"  class="c1">
+	</div>
+
+    </div>
+
+
+</body>
+</html>
